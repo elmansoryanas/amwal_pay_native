@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.urllauncher",
+    "module": "url_launcher_android_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_profile-1.0.aar",
+          "url": "url_launcher_android_profile-1.0.aar",
+          "size": 15205,
+          "sha512": "f1f08b103baec50fbfac9336bf4500fc57f78a2fd4f757f6e9895ca119e7ac766f9fc774e79c57316abb131fc70dcdc53f55d495a332e571498e6f69c2ecbc90",
+          "sha256": "d5e1e972e34eb9c80d94fd5405316719fe2f388a329703a427e4b361807f1230",
+          "sha1": "9892bcef120086efecf2de2e2ee292282064fcc2",
+          "md5": "76dc3c0606fa0dfca457e7324a584f77"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_profile-1.0.aar",
+          "url": "url_launcher_android_profile-1.0.aar",
+          "size": 15205,
+          "sha512": "f1f08b103baec50fbfac9336bf4500fc57f78a2fd4f757f6e9895ca119e7ac766f9fc774e79c57316abb131fc70dcdc53f55d495a332e571498e6f69c2ecbc90",
+          "sha256": "d5e1e972e34eb9c80d94fd5405316719fe2f388a329703a427e4b361807f1230",
+          "sha1": "9892bcef120086efecf2de2e2ee292282064fcc2",
+          "md5": "76dc3c0606fa0dfca457e7324a584f77"
+        }
+      ]
+    }
+  ]
+}

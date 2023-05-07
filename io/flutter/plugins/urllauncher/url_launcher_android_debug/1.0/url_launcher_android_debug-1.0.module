@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.urllauncher",
+    "module": "url_launcher_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_debug-1.0.aar",
+          "url": "url_launcher_android_debug-1.0.aar",
+          "size": 15833,
+          "sha512": "eed8c3f53334385f2ed2f80cc40a13fad7f78f4f46841f915bac8dd5cdc62c74c3ee695d63e38cee4b97ebd7089f9728381f92d4f0b1b28833f19bfe6eb6c453",
+          "sha256": "b1e26b8ccf0ebe86048d0aa529bbae910de8aa0e2633bd37a923cec5cd3d39c8",
+          "sha1": "e6bc4ddc1722691bf341e21429628506f73b4774",
+          "md5": "e84cc8f3c199d501dc6f8e97ff35c2fa"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_debug-1.0.aar",
+          "url": "url_launcher_android_debug-1.0.aar",
+          "size": 15833,
+          "sha512": "eed8c3f53334385f2ed2f80cc40a13fad7f78f4f46841f915bac8dd5cdc62c74c3ee695d63e38cee4b97ebd7089f9728381f92d4f0b1b28833f19bfe6eb6c453",
+          "sha256": "b1e26b8ccf0ebe86048d0aa529bbae910de8aa0e2633bd37a923cec5cd3d39c8",
+          "sha1": "e6bc4ddc1722691bf341e21429628506f73b4774",
+          "md5": "e84cc8f3c199d501dc6f8e97ff35c2fa"
+        }
+      ]
+    }
+  ]
+}
